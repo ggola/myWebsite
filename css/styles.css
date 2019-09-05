@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/** px is STATIC (does not inherit), em, % are DYNAMIC (they inherit from parent item) **/
+/** 100% = 16px = 1em **/
+/** CSS3: rem (root em) - discards parents inheritege **/
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-color: #D4D4D4;
+  border-width: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.my-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.dev-icon {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.data-icon {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.music-icon {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.skill-row {
+  width: 100%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/**  clear: left, right, both; left margin is CLEARED and not WRAPPED **/
+
+.middle-container {
+  margin-top: 0;
+}
+
+.profile {
+  width: 100%;
+  margin: 80px auto 80px auto;
+}
+
+.skills {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.contact-me {
+  width: 100%;
+  margin: 80px auto;
+  line-height: 2;
+}
+
+.contact-me-teaser {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.btn {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #66bfbf), color-stop(1, #279c9c));
+	background:-moz-linear-gradient(top, #66bfbf 5%, #279c9c 100%);
+	background:-webkit-linear-gradient(top, #66bfbf 5%, #279c9c 100%);
+	background:-o-linear-gradient(top, #66bfbf 5%, #279c9c 100%);
+	background:-ms-linear-gradient(top, #66bfbf 5%, #279c9c 100%);
+	background:linear-gradient(to bottom, #66bfbf 5%, #279c9c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bfbf', endColorstr='#279c9c',GradientType=0);
+	background-color:#66bfbf;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+	padding:13px 19px;
+	text-decoration:none;
+  margin: 7px auto;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #279c9c), color-stop(1, #66bfbf));
+	background:-moz-linear-gradient(top, #279c9c 5%, #66bfbf 100%);
+	background:-webkit-linear-gradient(top, #279c9c 5%, #66bfbf 100%);
+	background:-o-linear-gradient(top, #279c9c 5%, #66bfbf 100%);
+	background:-ms-linear-gradient(top, #279c9c 5%, #66bfbf 100%);
+	background:linear-gradient(to bottom, #279c9c 5%, #66bfbf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#279c9c', endColorstr='#66bfbf',GradientType=0);
+	background-color:#279c9c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 10px 0 30px 0;
+  line-height: 80px;
+}
+
+.fab {
+  color: #EAF6F6
+}
+
+.far {
+  color: #EAF6F6
+}
+
+.footer-link {
+  color: #11999E;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.credentials {
+  color: #EAF6F6;
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
